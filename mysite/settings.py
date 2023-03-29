@@ -122,3 +122,9 @@ STATIC_URL = 'static/css/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'xiaobleach@gmail.com'
+EMAIL_HOST_PASSWORD = 'altgvvtwqeswyxko'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
